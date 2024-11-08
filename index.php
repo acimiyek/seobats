@@ -1,4 +1,4 @@
-<?php require('index-lop.php'); ?
+<?php require('index-lop.php'); ?>
 
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
